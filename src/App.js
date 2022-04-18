@@ -1,10 +1,11 @@
-import './App.css';
+import React from "react";
+import MyRoutes from "./Routes";
 
 function App() {
   return (
-    <div>
-      Hello World
-    </div>
+    <>
+      <MyRoutes />
+    </>
   );
 }
 
