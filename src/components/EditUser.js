@@ -6,11 +6,11 @@ const EditUser = () => {
   return (
     <Form>
       <FormGroup>
-        <Label>Name</Label>
+        <Label>Nome</Label>
         <Input type="text" placeholder="Insira o nome"></Input>
       </FormGroup>
-      <Button type="submit">Edit Name</Button>
-      <Link to="/" className="btn btn-danger ms-2">Cancel</Link>
+      <Button type="submit">Editar Nome</Button>
+      <Link to="/" className="btn btn-danger ms-2">Cancelar</Link>
     </Form>
   );
 };

@@ -6,10 +6,10 @@ const UserList = () => {
   return (
     <ListGroup>
       <ListGroupItem className="d-flex">
-        <strong>User One</strong>
+        <strong>Usuário Um</strong>
         <div className="ms-auto">
-          <Link className="btn btn-warning me-1" to="/edit/1">Edit</Link>
-          <Button color="danger">Delete</Button>
+          <Link className="btn btn-warning me-1" to="/edit/1">Editar</Link>
+          <Button color="danger">Deletar</Button>
         </div>
       </ListGroupItem>
     </ListGroup>
